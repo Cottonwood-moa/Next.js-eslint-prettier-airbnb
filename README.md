@@ -1,6 +1,9 @@
 # Next.js + ESlint(airbnb) + Prettier Startpack
 
-ESlint, Prettier 확장 플러그인 사용
+ESlint, Prettier 확장 플러그인 사용(vscode)
+
+- airbnb 규칙적용 -> 그대로 사용
+- next 규칙적용 -> extends의 airbnb 삭제하고 주석된 next, next/core-web-vitals 활성화
 
 .eslint.json
 
@@ -12,8 +15,10 @@ ESlint, Prettier 확장 플러그인 사용
   },
   "extends": [
     "eslint:recommended",
-    "plugin:react/recommended",
+    // "next",
+    // "next/core-web-vitals",
     "airbnb",
+    "plugin:react/recommended",
     "plugin:prettier/recommended"
   ],
   "settings": {

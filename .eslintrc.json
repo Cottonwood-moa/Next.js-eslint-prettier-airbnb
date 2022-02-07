@@ -5,8 +5,10 @@
   },
   "extends": [
     "eslint:recommended",
-    "plugin:react/recommended",
+    // "next",
+    // "next/core-web-vitals",
     "airbnb",
+    "plugin:react/recommended",
     "plugin:prettier/recommended"
   ],
   "settings": {
