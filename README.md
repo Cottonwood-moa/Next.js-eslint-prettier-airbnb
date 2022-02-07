@@ -15,10 +15,10 @@ ESlint, Prettier 확장 플러그인 사용(vscode)
   },
   "extends": [
     "eslint:recommended",
+    "plugin:react/recommended",
     // "next",
     // "next/core-web-vitals",
     "airbnb",
-    "plugin:react/recommended",
     "plugin:prettier/recommended"
   ],
   "settings": {
