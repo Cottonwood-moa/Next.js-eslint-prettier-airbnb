@@ -1,4 +1,4 @@
-# Next.js + ESlint(airbnb) + Prettier Startpack
+# Next.js + ESlint(airbnb) + Prettier + SCSS Startpack
 
 ESlint, Prettier 확장 플러그인 사용(vscode)
 

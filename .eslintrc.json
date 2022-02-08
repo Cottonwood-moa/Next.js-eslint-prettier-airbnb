@@ -6,9 +6,9 @@
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
-    // "next",
-    // "next/core-web-vitals",
-    "airbnb",
+    "next",
+    "next/core-web-vitals",
+    // "airbnb",
     "plugin:prettier/recommended"
   ],
   "settings": {

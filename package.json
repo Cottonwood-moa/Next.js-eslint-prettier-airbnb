@@ -22,6 +22,8 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "7.28.0",
     "eslint-plugin-react-hooks": "4.3.0",
-    "prettier": "^2.5.1"
+    "node-sass": "^7.0.1",
+    "prettier": "^2.5.1",
+    "styled-jsx-plugin-sass": "^1.0.0"
   }
 }

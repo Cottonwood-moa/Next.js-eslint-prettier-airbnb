@@ -1,7 +1,21 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
 
 const index = () => {
-  return <NavBar />;
+  return (
+    <>
+      <div>
+        <h1>Hello</h1>
+      </div>
+      <style jsx>
+        {`
+          div {
+            h1 {
+              color: tomato;
+            }
+          }
+        `}
+      </style>
+    </>
+  );
 };
 export default index;
